@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-11-02T10:54:40Z" product-name="essen">
+		<header/>
+		<body>
+
+			<trans-unit id="sheetGeneral" xml:space="preserve">
+				<source>General</source>
+				<target>Allgemein</target>
+			</trans-unit>
+
+			<trans-unit id="chooseAction" xml:space="preserve">
+				<source>Choose view</source>
+				<target>Ansicht wählen</target>
+			</trans-unit>
+
+			<trans-unit id="list">
+				<source>List food</source>
+				<target>Essens-Auflistung</target>
+			</trans-unit>
+			<trans-unit id="listFast">
+				<source>List food (fast)</source>
+				<target>Essens-Auflistung (schnell)</target>
+			</trans-unit>
+			<trans-unit id="modifyQuery">
+				<source>Modify Query</source>
+				<target>Query verändern</target>
+			</trans-unit>
+			<trans-unit id="extConf">
+				<source>ExtConf</source>
+				<target>ExtConf</target>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

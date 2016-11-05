@@ -1,0 +1,17 @@
+plugin.tx_essen {
+  view {
+    # cat=plugin.tx_essen/file; type=string; label=Path to template root (FE)
+    templateRootPath = EXT:essen/Resources/Private/Templates/
+    # cat=plugin.tx_essen/file; type=string; label=Path to template partials (FE)
+    partialRootPath = EXT:essen/Resources/Private/Partials/
+    # cat=plugin.tx_essen/file; type=string; label=Path to template layouts (FE)
+    layoutRootPath = EXT:essen/Resources/Private/Layouts/
+  }
+  persistence {
+    # cat=plugin.tx_essen//a; type=string; label=Default storage PID
+    storagePid =
+  }
+  settings {
+
+  }
+}

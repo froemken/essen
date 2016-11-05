@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-11-05T11:29:40Z" product-name="essen">
+		<header/>
+		<body>
+
+			<trans-unit id="rootUid">
+				<source>Category root UID: In huge environments with a lot of categories defined, it would be cool to reduce the amount of categories to a parent category.</source>
+				<target>Eltern-Kategorie: Auf großen Webseiten mit vielen Kategorien kann es sinnvoll sein, die Anzahl der Kategorien auf eine hier definierte Hauptkategorie zu beschränken.</target>
+			</trans-unit>
+			<trans-unit id="templatePath">
+				<source>Template path: Path to a template path</source>
+				<target>Pfad zur Vorlage: Pfad zu der Vorlagen-Datei</target>
+			</trans-unit>
+
+			<trans-unit id="emailFromAddress" xml:space="preserve">
+				<source>email from address: The senders email address. If not given the extension tries to get one from INSTALL_TOOL.</source>
+				<target>E-Mail FROM: Die E-Mail-Adresse des Absenders. Wenn nicht angegeben, dann wird die konfigurierte E-Mail-Adresse aus dem Installtool verwendet.</target>
+			</trans-unit>
+			<trans-unit id="emailFromName" xml:space="preserve">
+				<source>email from name: The senders email name. If not given the extension tries to get one from INSTALL_TOOL.</source>
+				<target>E-Mail FROM Name: Der Name des Absenders. Wenn nicht angegeben, dann wird der konfigurierte Name aus dem Installtool verwendet.</target>
+			</trans-unit>
+			<trans-unit id="emailToAddress" xml:space="preserve">
+				<source>email to address: The recipients email address.</source>
+				<target>E-Mail TO: Die Empfänger E-Mail-Adresse</target>
+			</trans-unit>
+			<trans-unit id="emailToName" xml:space="preserve">
+				<source>email to name: The recipients email name.</source>
+				<target>E-Mail TO Name: Der Empfänger Name</target>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

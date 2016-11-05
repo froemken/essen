@@ -1,0 +1,12 @@
+# cat=basic; type=string; label = LLL:EXT:essen/Resources/Private/Language/ExtConf.xlf:rootUid
+rootUid = 0
+# cat=basic; type=string; label = LLL:EXT:essen/Resources/Private/Language/ExtConf.xlf:templatePath
+templatePath =
+# cat=basic; type=string; label = LLL:EXT:essen/Resources/Private/Language/ExtConf.xlf:emailFromAddress
+emailFromAddress =
+# cat=basic; type=string; label = LLL:EXT:essen/Resources/Private/Language/ExtConf.xlf:emailFromName
+emailFromName =
+# cat=basic; type=string; label = LLL:EXT:essen/Resources/Private/Language/ExtConf.xlf:emailToAddress
+emailToAddress =
+# cat=basic; type=string; label = LLL:EXT:essen/Resources/Private/Language/ExtConf.xlf:emailToName
+emailToName =

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-11-02T10:38:40Z" product-name="essen">
+		<header/>
+		<body>
+
+			<trans-unit id="plugin.essen.title">
+				<source>Essen 2016</source>
+				<target>Essen 2016</target>
+			</trans-unit>
+
+			<trans-unit id="tx_essen_domain_model_food">
+				<source>Food</source>
+				<target>Essen</target>
+			</trans-unit>
+			<trans-unit id="tx_essen_domain_model_food.title">
+				<source>Title</source>
+				<target>Titel</target>
+			</trans-unit>
+			<trans-unit id="tx_essen_domain_model_food.price">
+				<source>Price</source>
+				<target>Preis</target>
+			</trans-unit>
+			<trans-unit id="tx_essen_domain_model_food.ingredients">
+				<source>Ingredients</source>
+				<target>Zutaten</target>
+			</trans-unit>
+
+			<trans-unit id="tx_essen_domain_model_ingredient">
+				<source>Ingredient</source>
+				<target>Zutat</target>
+			</trans-unit>
+			<trans-unit id="tx_essen_domain_model_ingredient.title">
+				<source>Title</source>
+				<target>Titel</target>
+			</trans-unit>
+			<trans-unit id="tx_essen_domain_model_ingredient.foods">
+				<source>Foods</source>
+				<target>Speisen</target>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

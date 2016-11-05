@@ -1,0 +1,19 @@
+<f:layout name="Default" />
+
+<f:section name="main">
+	<f:link.action action="new">Create new entry</f:link.action>
+	<f:for each="{foods}" as="food">
+		<dl class="{f:if(condition: food.hidden, then: 'bg-warning', else: '')}">
+			<dt><f:link.action action="show" arguments="{food: food}">{food.title}</f:link.action></dt>
+			<f:if condition="{food.ingredients}">
+				<dd>
+					<ul>
+						<f:for each="{food.ingredients}" as="ingredient">
+							<li>{ingredient.title}</li>
+						</f:for>
+					</ul>
+				</dd>
+			</f:if>
+		</dl>
+	</f:for>
+</f:section>

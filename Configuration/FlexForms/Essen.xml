@@ -1,0 +1,43 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<sDEFAULT>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:essen/Resources/Private/Language/FlexForms.xlf:sheetGeneral</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<switchableControllerActions>
+						<TCEforms>
+							<label>LLL:EXT:essen/Resources/Private/Language/FlexForms.xlf:chooseAction</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:essen/Resources/Private/Language/FlexForms.xlf:list</numIndex>
+										<numIndex index="1" />
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:essen/Resources/Private/Language/FlexForms.xlf:listFast</numIndex>
+										<numIndex index="1"><![CDATA[Food->listFast;Food->showFast]]></numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:essen/Resources/Private/Language/FlexForms.xlf:modifyQuery</numIndex>
+										<numIndex index="1"><![CDATA[Food->modifyQuery;Food->show]]></numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">LLL:EXT:essen/Resources/Private/Language/FlexForms.xlf:extConf</numIndex>
+										<numIndex index="1"><![CDATA[ExtConf->show]]></numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</switchableControllerActions>
+				</el>
+			</ROOT>
+		</sDEFAULT>
+	</sheets>
+</T3DataStructure>

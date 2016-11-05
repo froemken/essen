@@ -1,0 +1,16 @@
+<f:layout name="Default" />
+
+<f:section name="main">
+	<dl>
+		<dt>{food.title}</dt>
+		<f:if condition="{food.ingredients}">
+			<dd>
+				<ul>
+					<f:for each="{food.ingredients}" as="ingredient">
+						<li>{ingredient.title}</li>
+					</f:for>
+				</ul>
+			</dd>
+		</f:if>
+	</dl>
+</f:section>
