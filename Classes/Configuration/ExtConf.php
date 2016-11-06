@@ -1,7 +1,7 @@
 <?php
 
 namespace StefanFroemken\Essen\Configuration;
-    
+
 /*
  * This file is part of the TYPO3 CMS project.
  *
@@ -14,7 +14,9 @@ namespace StefanFroemken\Essen\Configuration;
  *
  * The TYPO3 project - inspiring people to share!
  */
+
 use TYPO3\CMS\Core\SingletonInterface;
+use TYPO3\CMS\Extbase\Reflection\ObjectAccess;
 
 /**
  * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
@@ -27,14 +29,14 @@ class ExtConf implements SingletonInterface
      * @var int
      */
     protected $rootUid = 0;
-    
+
     /**
      * templatePath
      *
      * @var string
      */
     protected $templatePath = '';
-    
+
     /**
      * email from address.
      *
@@ -74,10 +76,11 @@ class ExtConf implements SingletonInterface
         if (is_array($extConf) && count($extConf)) {
             // call setter method foreach configuration entry
             foreach ($extConf as $key => $value) {
-                $methodName = 'set' . ucfirst($key);
-                if (method_exists($this, $methodName)) {
-                    $this->$methodName($value);
-                }
+                ObjectAccess::setProperty(
+                    $this,
+                    $key,
+                    $value
+                );
             }
         }
     }
@@ -105,7 +108,7 @@ class ExtConf implements SingletonInterface
     {
         $this->rootUid = (int)$rootUid;
     }
-    
+
     /**
      * Returns the templatePath
      *
@@ -115,7 +118,7 @@ class ExtConf implements SingletonInterface
     {
         return $this->templatePath;
     }
-    
+
     /**
      * Sets the templatePath
      *
