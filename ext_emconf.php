@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
     'title' => 'Essen',
-    'description' => 'Extbase Performance',
+    'description' => 'TYPO3Camp Essen: Extbase Performance',
     'category' => 'plugin',
     'author' => 'Stefan Froemken',
     'author_email' => 'froemken@gmail.com   ',
